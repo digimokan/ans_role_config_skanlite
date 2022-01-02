@@ -1,0 +1,7 @@
+- name: "Install the 'skanlite' package"
+  ansible.builtin.package:
+    name: skanlite
+    state: present
+  become: true
+  become_user: root
+
